@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>along</title>
+    <link rel="stylesheet" href="../build/build.css">
+  </head>
+  <body>
+    <script src="../build/build.js"></script>
+    <script>var along = require('along')</script>
+    <script>
+    
+    var math = {};
+
+    math.add = function(a, b){ return a+b; };
+    math.sub = function(a, b){ return a-b; };
+    math.mul = function(a, b){ return a*b; };
+    
+    along(math, function(add, sub, mul){
+      var res = mul(2,add(4,sub(10,5)));
+      if (18 === res) document.write('pass');
+    });
+
+    </script>
+  </body>
+</html>

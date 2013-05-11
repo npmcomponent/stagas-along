@@ -1,0 +1,12 @@
+{
+  "name": "along",
+  "version": "0.0.1",
+  "description": "a with-alike selective method importer",
+  "keywords": ["object","with","dependency injection"],
+  "author": "stagas",
+  "license": "MIT",
+  "dependencies": {
+    "stagas/injectable": "*"
+  },
+  "scripts": ["index.js"]
+}
