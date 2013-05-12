@@ -11,5 +11,5 @@ var injectable = require('injectable');
  */
 
 module.exports = function(context, fn){
-  injectable(context)(fn);
+  return injectable(context)(fn);
 };
