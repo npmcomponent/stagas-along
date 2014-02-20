@@ -1,0 +1,14 @@
+{
+  "name": "stagas-along",
+  "description": "a with-alike selective method importer",
+  "version": "0.1.0",
+  "keywords": [
+    "object",
+    "with",
+    "dependency injection"
+  ],
+  "dependencies": {
+    "stagas-injectable": "git://github.com/npmcomponent/stagas-injectable.git"
+  },
+  "license": "MIT"
+}

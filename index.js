@@ -3,7 +3,7 @@
  * Module dependencies.
  */
 
-var injectable = require('injectable');
+var injectable = require('stagas-injectable');
 
 /**
  * Run `fn` along `context` pulling
